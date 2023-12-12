@@ -1,5 +1,5 @@
 # 8.1 Instalar Nginx
-sudo apt install nginx
+sudo apt install nginx  
 ![imagen1](../Foto/8.1.png)  
 
 # 8.2 Configurar Nginx
