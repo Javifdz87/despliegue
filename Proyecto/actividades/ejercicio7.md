@@ -19,3 +19,4 @@ Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
 # 7.4 Habilitar el nuevo sitio y reiniciar Apache
 sudo a2ensite awstats.conf  
 sudo systemctl restart apache2
+![imagen1](../Foto/7.4.png) 
