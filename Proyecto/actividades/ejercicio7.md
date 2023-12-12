@@ -1,5 +1,6 @@
 # 7.1 Instalar AWStats
-sudo apt install awstats
+sudo apt install awstats  
+
 ![imagen1](../Foto/7.1.png)  
 
 # 7.2 Configurar AWStats
