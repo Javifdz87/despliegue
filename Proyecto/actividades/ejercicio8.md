@@ -1,9 +1,11 @@
 # 8.1 Instalar Nginx
 sudo apt install nginx  
+
 ![imagen1](../Foto/8.1.png)  
 
 # 8.2 Configurar Nginx
 sudo nano /etc/nginx/sites-available/servidor2.centro.intranet
+
 ![imagen1](../Foto/8.2.png)  
 
 
