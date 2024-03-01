@@ -13,56 +13,60 @@ En esta práctica, se llevará a cabo la instalación, configuración y puesta e
    - Creación de usuarios y directorios correspondientes para el alojamiento web.
    - Configuración de host virtual en Apache.
    - Creación de usuarios del sistema para acceso a FTP, SSH, SMTP, etc.
-7. Creación de un subdominio en el servidor DNS con resolución directa e inversa.
-8. Creación de una base de datos y usuario con todos los permisos sobre dicha base de datos (ALL PRIVILEGES).
-9. Habilitación de la ejecución de aplicaciones Python con el servidor web.
+   - Creación de un subdominio en el servidor DNS con resolución directa e inversa.
+   - Creación de una base de datos y usuario con todos los permisos sobre dicha base de datos (ALL PRIVILEGES).
+   - Habilitación de la ejecución de aplicaciones Python con el servidor web.
 
-### Adicionalmente:
-
-- Posibilidad de incluir la creación mediante Docker de un contenedor DNS y al menos un contenedor que actuará como servidor (web, MySQL, SSH, etc.). Se configurarán la red, volúmenes y scripts necesarios para ponerlos en marcha. Este apartado se valorará con hasta el 10% de la nota de la práctica.
 
 ## Pasos:
 
 1. **Instalación y Configuración Básica del Servidor:**
    - Instalar un sistema operativo Linux en el servidor.
    - Actualizar el sistema.
-   - Instalar y configurar Apache, PHP, MySQL/MariaDB, vsftpd (servidor FTP), OpenSSH (SSH), y Python según sea necesario.
+   - Instalar y configurar Apache, PHP, MySQL/MariaDB, vsftpd (servidor FTP), OpenSSH (SSH).
+   (La mayoria ya deberiamos de tenerlo instalado)
 
 2. **Configuración de Apache y PHP:**
    - Configurar Apache para alojar múltiples sitios web utilizando Virtual Hosts.
    - Habilitar el módulo de PHP en Apache.
-   - Reiniciar Apache.
+   - Reiniciar Apache.  
+   [Ir al ejercicio](./ej2.md)
+
 
 3. **Configuración de MySQL/MariaDB:**
    - Instalar el servidor de bases de datos.
-   - Acceder al servidor MySQL/MariaDB y crear la base de datos y usuario necesario.
+   - Acceder al servidor MySQL/MariaDB y crear la base de datos y usuario necesario.  
+   [Ir al ejercicio](./ej3.md)
 
 4. **Instalación de phpMyAdmin:**
-   - Instalar y configurar phpMyAdmin para acceder a la base de datos a través del navegador.
+   - Instalar y configurar phpMyAdmin para acceder a la base de datos a través del navegador.  
+   [Ir al ejercicio](./ej4.md)
 
 5. **Configuración de vsftpd (Servidor FTP):**
    - Instalar y configurar vsftpd para permitir conexiones seguras TLS/SSL.
-   - Crear usuarios FTP y asignar permisos adecuados.
+   - Crear usuarios FTP y asignar permisos adecuados.  
+   [Ir al ejercicio](./ej5.md)
 
 6. **Configuración de OpenSSH:**
    - Instalar y configurar OpenSSH para acceso seguro.
-   - Configurar SFTP para transferencia de archivos segura.
+   - Configurar SFTP para transferencia de archivos segura.  
+   [Ir al ejercicio](./ej6.md)
 
 7. **Automatización con Scripts:**
-   - Crear scripts para automatizar tareas como la creación de usuarios, configuración de Virtual Hosts, creación de bases de datos, etc.
+   - Crear scripts para automatizar tareas como la creación de usuarios, configuración de Virtual Hosts, creación de bases de datos, etc.  
+   [Ir al ejercicio](./ej7.md)
+
 
 8. **Configuración del Servidor DNS:**
    - Configurar un servidor DNS con resolución directa e inversa.
-   - Crear un subdominio y asignar resolución directa e inversa.
+   - Crear un subdominio y asignar resolución directa e inversa.  
+   [Ir al ejercicio](./ej8.md)
 
 9. **Ejecución de Aplicaciones Python:**
-   - Configurar Apache para ejecutar aplicaciones Python utilizando mod_wsgi u otra configuración adecuada.
+   - Configurar Apache para ejecutar aplicaciones Python utilizando mod_wsgi u otra configuración adecuada.  
+   [Ir al ejercicio](./ej9.md)
 
 
 
-## Documentación y Capturas de Pantalla:
 
-- Se adjuntará documentación detallada de cada paso realizado.
-- Se podrán incluir capturas de pantalla para ilustrar la configuración realizada.
-- [Ejemplo de captura de pantalla: Configuración de Virtual Hosts en Apache](ejemplo_de_enlace)
 
