@@ -62,7 +62,7 @@ En esta práctica, se llevará a cabo la instalación, configuración y puesta e
    - Crear un subdominio y asignar resolución directa e inversa.  
    [Ir al ejercicio](./ej8.md)
 
-9. **Ejecución de Aplicaciones Python:**
+9. **Ejecución de Aplicaciones Python Y Base de Datos:**
    - Configurar Apache para ejecutar aplicaciones Python utilizando mod_wsgi u otra configuración adecuada.  
    [Ir al ejercicio](./ej9.md)
 
