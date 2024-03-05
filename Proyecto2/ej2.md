@@ -12,16 +12,15 @@ sudo apt install php libapache2-mod-php php-mysql
 ```
 
 
-4.Verificamos que PHP se haya instalado correctamente ejecutando el siguiente comando:
+4.Verificamos que PHP se haya instalado correctamente ejecutando el siguiente comando:  
 ![Texto alternativo](./Fotos/e2/f1-5.png)
 
-5.Creamos un directorio para el sitio web, le damos permisos al directorio y creamos el archivo de configuracion del virtual host.
- 
+5.Creamos un directorio para el sitio web, le damos permisos al directorio y creamos el archivo de configuracion del virtual host.  
 ![Texto alternativo](./Fotos/e2/f2-1.png)
-6.Ahora dentro del nano(archivo de configuración) tenemos que escribir esta linea de comando de ejemplo :
+6.Ahora dentro del nano(archivo de configuración) tenemos que escribir esta linea de comando de ejemplo :  
 ![Texto alternativo](./Fotos/e2/f2-2.png)  
 
-7.Lo activamos con este codigo y reseteamos para que se hagan los cambios.
+7.Lo activamos con este codigo y reseteamos para que se hagan los cambios.  
 ![Texto alternativo](./Fotos/e2/f2-3.png)
 
 8.Ahora con esta linea de comando entramos en hosts. 
