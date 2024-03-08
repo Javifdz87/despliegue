@@ -63,7 +63,6 @@ Esta guía proporciona una visión general de Docker y su uso, desde la instalac
   - **Aplicación Python:** Creación de una imagen para una aplicación Python.
   - **Imágenes configurables:** Uso de variables de entorno para configurar imágenes.
 
-[Ir al ejercicio](./ej5.md)
 
 
 ## Ciclo de vida de las aplicaciones
