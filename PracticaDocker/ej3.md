@@ -5,7 +5,7 @@
 ![docker](./fotos/ej2/f2-2.png)
 - Seguimos con la imagen nginx  
 ![docker](./fotos/ej2/f2-3.png) 
-- Muestra un listado de todas la imágenes  
+- Muestra un listado de todas la imágenes.  
 ![docker](./fotos/ej2/f2-4.png) 
 - Ejecuta un contenedor hello-world y dale nombre “myhello1”  
 ![docker](./fotos/ej2/f2-5.png)
