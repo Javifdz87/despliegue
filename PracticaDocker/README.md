@@ -13,7 +13,7 @@ Esta guía proporciona una visión general de Docker y su uso, desde la instalac
 - **Creando un contenedor con un servidor web:** Ejemplo práctico de contenedor con un servidor web.
 - **Configuración de contenedores con variables de entorno:** Uso de variables de entorno en Docker.  
 
-[Ir al ejercicio](./ej2.md)
+[Instalar Docker.](./dockerInstall.md)
 
 ## 2. Imágenes Docker
 
@@ -39,7 +39,7 @@ Esta guía proporciona una visión general de Docker y su uso, desde la instalac
   - **Wordpress + MariaDB:** Despliegue de una aplicación web con base de datos utilizando contenedores.
   - **Tomcat + Nginx:** Despliegue de una aplicación Java con un servidor web.  
 
-[Ir al ejercicio](./ej2.md)
+[Ir al ejercicio](./ej3.md)
 
 ## 4. Creando escenarios multicontenedor con Docker Compose
 
@@ -49,7 +49,7 @@ Esta guía proporciona una visión general de Docker y su uso, desde la instalac
 - **Almacenamiento con Docker Compose:** Definición de volúmenes y montaje de directorios en Docker Compose.
 - **Ejemplos de despliegue:** Mismos ejemplos anteriores utilizando Docker Compose para simplificar la gestión.
 
-[Ir al ejercicio](./ej2.md)
+[Ir al ejercicio](./ej4.md)
 
 
 ## 5. Creación de imágenes en Docker
@@ -63,7 +63,7 @@ Esta guía proporciona una visión general de Docker y su uso, desde la instalac
   - **Aplicación Python:** Creación de una imagen para una aplicación Python.
   - **Imágenes configurables:** Uso de variables de entorno para configurar imágenes.
 
-[Ir al ejercicio](./ej2.md)
+[Ir al ejercicio](./ej5.md)
 
 
 ## Ciclo de vida de las aplicaciones
